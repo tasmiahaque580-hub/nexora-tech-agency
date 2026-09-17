@@ -1,1 +1,28 @@
-{"name":"nexora-tech-agency","version":"1.0.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start","lint":"next lint"},"dependencies":{"next":"latest","react":"latest","react-dom":"latest","lucide-react":"latest"},"devDependencies":{"@types/node":"latest","@types/react":"latest","@types/react-dom":"latest","typescript":"latest"}}
+{
+  "name": "nexora-tech-agency",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.3.0"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
